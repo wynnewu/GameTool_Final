@@ -1,0 +1,11 @@
+﻿Build started 10/10/2016 4:32:49 PM.
+     1>Project "D:\cppunit\cppunit-1.12.1\examples\msvc6\HostApp\HostApp.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         .\Debug\testrunnerd.dll
+         The system cannot find the file specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "D:\cppunit\cppunit-1.12.1\examples\msvc6\HostApp\HostApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05

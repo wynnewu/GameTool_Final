@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="2">
+      <Name>UnitTest::testLine1</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>h:\gametoolfinal\final_week\game_tool\source.cpp</File>
+        <Line>146</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>UnitTest::testMinDis</Name>
+    </Test>
+    <Test id="3">
+      <Name>UnitTest::testLine2</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>3</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>

@@ -1,0 +1,64 @@
+﻿Build started 10/10/2016 4:17:34 PM.
+     1>Project "D:\cppunit\cppunit-1.12.1\src\msvc6\testrunner\TestRunner.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\include\msvc6 /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _AFXEXT /D _WINDOWS /D _WINDLL /D WIN32 /D OEMRESOURCE /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Yc"stdafx.h" /Fp".\Debug\TestRunner.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\include\msvc6 /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _AFXEXT /D _WINDOWS /D _WINDLL /D WIN32 /D OEMRESOURCE /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Yu"stdafx.h" /Fp".\Debug\TestRunner.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt DynamicWindow\cdxCDynamicDialog.cpp DynamicWindow\cdxCDynamicWnd.cpp DynamicWindow\cdxCDynamicWndEx.cpp DynamicWindow\cdxCSizeIconCtrl.cpp ListCtrlFormatter.cpp ListCtrlSetter.cpp MsDevCallerListCtrl.cpp ProgressBar.cpp ResourceLoaders.cpp TestRunnerApp.cpp TestRunnerDlg.cpp TreeHierarchyDlg.cpp ActiveTest.cpp MfcTestRunner.cpp TestRunnerModel.cpp MostRecentTests.cpp
+         MostRecentTests.cpp
+         TestRunnerModel.cpp
+         MfcTestRunner.cpp
+         ActiveTest.cpp
+         TreeHierarchyDlg.cpp
+         TestRunnerDlg.cpp
+         TestRunnerApp.cpp
+         ResourceLoaders.cpp
+         ProgressBar.cpp
+         MsDevCallerListCtrl.cpp
+         ListCtrlSetter.cpp
+         ListCtrlFormatter.cpp
+         cdxCSizeIconCtrl.cpp
+         cdxCDynamicWndEx.cpp
+         cdxCDynamicWnd.cpp
+         cdxCDynamicDialog.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\include\msvc6 /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _AFXEXT /D _WINDOWS /D _WINDLL /D WIN32 /D OEMRESOURCE /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _AFXDLL /Gm /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\..\include\msvc6\DSPlugin\TestRunnerDSPluginVC6_i.c
+         TestRunnerDSPluginVC6_i.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\TestRunner.res" TestRunner.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\testrunner.dll" /INCREMENTAL:NO /NOLOGO ..\..\..\lib\cppunit.lib winmm.lib /DEF:".\TestRunner.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\Debug\TestRunner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\testrunner.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\TestRunner.res
+         .\Debug\cdxCDynamicDialog.obj
+         .\Debug\cdxCDynamicWnd.obj
+         .\Debug\cdxCDynamicWndEx.obj
+         .\Debug\cdxCSizeIconCtrl.obj
+         .\Debug\ListCtrlFormatter.obj
+         .\Debug\ListCtrlSetter.obj
+         .\Debug\MsDevCallerListCtrl.obj
+         .\Debug\ProgressBar.obj
+         .\Debug\ResourceLoaders.obj
+         .\Debug\StdAfx.obj
+         .\Debug\TestRunnerApp.obj
+         .\Debug\TestRunnerDlg.obj
+         .\Debug\TreeHierarchyDlg.obj
+         .\Debug\ActiveTest.obj
+         .\Debug\MfcTestRunner.obj
+         .\Debug\TestRunnerModel.obj
+         .\Debug\MostRecentTests.obj
+         .\Debug\TestRunnerDSPluginVC6_i.obj
+     1>.\TestRunner.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Debug\testrunner.lib and object .\Debug\testrunner.exp
+         TestRunner.vcxproj -> D:\cppunit\cppunit-1.12.1\src\msvc6\testrunner\.\Debug\TestRunner.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o".\Debug\TestRunner.bsc" .\Debug\cdxCDynamicDialog.sbr .\Debug\cdxCDynamicWnd.sbr .\Debug\cdxCDynamicWndEx.sbr .\Debug\cdxCSizeIconCtrl.sbr .\Debug\ListCtrlFormatter.sbr .\Debug\ListCtrlSetter.sbr .\Debug\MsDevCallerListCtrl.sbr .\Debug\ProgressBar.sbr .\Debug\ResourceLoaders.sbr .\Debug\StdAfx.sbr .\Debug\TestRunnerApp.sbr .\Debug\TestRunnerDlg.sbr .\Debug\TreeHierarchyDlg.sbr .\Debug\ActiveTest.sbr .\Debug\MfcTestRunner.sbr .\Debug\TestRunnerModel.sbr .\Debug\MostRecentTests.sbr .\Debug\TestRunnerDSPluginVC6_i.sbr
+       PostBuildEvent:
+         copy "D:\cppunit\cppunit-1.12.1\src\msvc6\testrunner\.\Debug\TestRunner.dll" ..\..\..\lib\TestRunner.dll
+         copy "D:\cppunit\cppunit-1.12.1\src\msvc6\testrunner\Debug\TestRunner.lib" ..\..\..\lib\TestRunner.lib
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "D:\cppunit\cppunit-1.12.1\src\msvc6\testrunner\TestRunner.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.29
