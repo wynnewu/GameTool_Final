@@ -1,6 +1,0 @@
-﻿  Source.cpp
-h:\gametoolfinal\final_week\game_tool\source.cpp(146): warning C4002: too many actual parameters for macro 'CPPUNIT_ASSERT'
-h:\gametoolfinal\final_week\game_tool\source.cpp(153): warning C4002: too many actual parameters for macro 'CPPUNIT_ASSERT'
-  Command.cpp
-  Generating Code...
-  Test.vcxproj -> H:\GameToolFinal\Final_Week\Game_Tool\Debug\Test.exe
