@@ -5,7 +5,7 @@
       <Name>UnitTest::testLine1</Name>
       <FailureType>Assertion</FailureType>
       <Location>
-        <File>h:\gametoolfinal\final_week\game_tool\source.cpp</File>
+        <File>h:\gametoolfinal\gametool_final\gametool_final\game_tool\source.cpp</File>
         <Line>146</Line>
       </Location>
       <Message>assertion failed
