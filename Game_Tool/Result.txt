@@ -6,7 +6,7 @@
       <FailureType>Assertion</FailureType>
       <Location>
         <File>h:\gametoolfinal\gametool_final\gametool_final\game_tool\source.cpp</File>
-        <Line>146</Line>
+        <Line>178</Line>
       </Location>
       <Message>assertion failed
 - Expression: 0
