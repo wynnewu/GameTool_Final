@@ -37,7 +37,7 @@ using namespace std;
 		}
 
 	}
-	
+
 	double newArr[40][3];
 	for (int i = 0; i < 40; i++)
 	{
@@ -52,10 +52,10 @@ using namespace std;
 			}
 
 		}
-	
+
 	}
 
-	
+
 	ofstream myfile("cba.txt");
 	myfile << "Min Distance: " << temp << endl;
 	myfile << "Row:" << index1<<", ";
@@ -77,18 +77,18 @@ using namespace std;
 
 }
 */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-
-
-	for (int i = 0; i < argc; i++)
-	{
-		cout << "Argument:" << i + 1 << "On the Command Line" << argv[i] << endl;
-	}
 
 	//ifstream infile(argv[1]);
 
+
 	ifstream infile("abc.txt");
+	if (!infile.is_open()) {
+		cout << "Could not open file\n";
+
+	}
+
 	string num[40][3];
 
 
@@ -135,14 +135,15 @@ int main(int argc, char **argv)
 
 
 }
+
 void UnitTest::testMinDis() {
 
-	
+
 }
 void UnitTest::testLine1() {
 
 	Command c;
-	
+
 	CPPUNIT_ASSERT(0, c.getLine1());
 
 }
